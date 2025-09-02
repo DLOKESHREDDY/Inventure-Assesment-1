@@ -43,10 +43,10 @@ const Footer = () => {
           <div className="footer-section">
             <h3>Services</h3>
             <ul className="footer-links">
-              <li><a href="#sectors">Revenue Sharing</a></li>
-              <li><a href="#sectors">Marketing Engine</a></li>
-              <li><a href="#sectors">Broker Community</a></li>
-              <li><a href="#sectors">AI Learning Platform</a></li>
+              <li><a href="#sectors" onClick={() => scrollToSection('sectors')}>Revenue Sharing</a></li>
+              <li><a href="#sectors" onClick={() => scrollToSection('sectors')}>Marketing Engine</a></li>
+              <li><a href="#sectors" onClick={() => scrollToSection('sectors')}>Broker Community</a></li>
+              <li><a href="#sectors" onClick={() => scrollToSection('sectors')}>AI Learning Platform</a></li>
             </ul>
           </div>
 
@@ -54,10 +54,10 @@ const Footer = () => {
           <div className="footer-section">
             <h3>Company</h3>
             <ul className="footer-links">
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#contact">Get in Touch</a></li>
-              <li><a href="#news">News</a></li>
-              <li><a href="#contact">Careers</a></li>
+              <li><a href="#about" onClick={() => scrollToSection('about')}>About Us</a></li>
+              <li><a href="#contact" onClick={() => scrollToSection('contact')}>Get in Touch</a></li>
+              <li><a href="#news" onClick={() => scrollToSection('news')}>News</a></li>
+              <li><a href="#contact" onClick={() => scrollToSection('contact')}>Careers</a></li>
             </ul>
           </div>
         </div>
@@ -69,9 +69,9 @@ const Footer = () => {
               © 2024 Inventure. All rights reserved.
             </div>
             <div className="footer-bottom-links">
-              <a href="#">Privacy Policy</a>
-              <a href="#">Terms of Service</a>
-              <a href="#">Cookie Policy</a>
+              <a href="/privacy-policy">Privacy Policy</a>
+              <a href="/terms-of-service">Terms of Service</a>
+              <a href="/cookie-policy">Cookie Policy</a>
             </div>
           </div>
         </div>
